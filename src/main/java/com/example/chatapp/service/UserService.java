@@ -108,7 +108,7 @@ public class UserService {
         return jwtService.generateToken(loginRequest.getUsername());
     }
 
-    // Profil bilgisini getir
+    // Profil bilgisini getirdxcdcdscdc
     public ProfileResponse getProfile(String token) throws Exception {
 
         if (token.isEmpty()) {
